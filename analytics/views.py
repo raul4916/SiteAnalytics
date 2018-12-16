@@ -115,7 +115,8 @@ class Report(APIView):
 
 		response = json.dumps({
 			'pages':{
-				"highest_views"     :list(highest_views), "most_time":list(most_time),
+				"highest_views"     :list(highest_views),
+				"most_time":list(most_time),
 				'highest_conversion':list_conversion
 				}
 			})
